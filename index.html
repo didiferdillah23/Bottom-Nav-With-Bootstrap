@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottom Nav</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        height: 800px;
+    }
+    .bottom-nav {
+        background-color: rgba(0,0,0,0.1);
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+    .bottom-nav img {
+        width: 20px;
+        margin-top: 13px;
+    }
+    .bottom-nav #bell {
+        width: 15px;
+    }
+</style>
+<body>
+    
+    <div class="bottom-nav d-flex justify-content-around">
+        <a href=""><img src="img/home_ic.png" alt=""></a>
+        <a href=""><img src="img/search_ic.png" alt=""></a>
+        <a href=""><img src="img/bell_ic.png" id="bell" alt=""></a>
+        <a href=""><img src="img/user_ic.png" alt=""></a>
+    </div>
+</body>
+</html>
